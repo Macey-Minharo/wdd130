@@ -1,0 +1,16 @@
+.blue {
+  color: cadetblue;
+  text-align: center;
+}
+.green {
+  color: darkgreen;
+  text-align: center;
+  font-size: xx-large;
+}
+
+#name {
+  font-size: xx-large;
+}
+#name2 {
+  font-size: xx-large;
+}
