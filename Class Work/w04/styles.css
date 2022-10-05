@@ -1,0 +1,61 @@
+h1 {
+  font-size: 30px;
+  font-family: arial;
+  text-align: center;
+}
+
+body {
+  background-color: pink;
+}
+
+p1 {
+  color: black;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.bigFont {
+  text-size-adjust: 20px;
+  text-align: center;
+  color: white;
+}
+
+.trebFont {
+  text-size-adjust: 40;
+  color: white;
+  font-family: "Trebuchet MS", "Times New Roman", sans-serif;
+  text-align: center;
+}
+
+h1:hover {
+  color: white;
+}
+
+.boldList {
+  font-size: 20px;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+}
+.quote {
+  color: white;
+  font-size: 200%;
+  text-align: center;
+  font-family: "Trebuchet MS", "Times New Roman";
+}
+
+div.listContainer {
+  text-align: center;
+}
+
+.maincontent {
+  width: 500px;
+  margin: 0 auto;
+}
