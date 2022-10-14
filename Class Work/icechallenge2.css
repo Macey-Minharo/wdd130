@@ -1,0 +1,25 @@
+.icons {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 70%;
+  overflow: hidden;
+  border: solid rgb(55, 55, 55) 10px;
+}
+.img {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 60px;
+}
+footer {
+  background-color: #737373;
+}
+#top {
+  width: 100%;
+}
+body {
+  margin: 0;
+}
+header {
+  margin-bottom: -5px;
+}
