@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+#river1 > img {
+  float: left;
+  width: 55%;
+  padding-right: 10px;
+}
+#rivers2 > img {
+  float: right;
+  width: 55%;
+}
+#river1 > h2 {
+  text-align: center;
+}
+
+#river1 > p {
+  line-height: 45px;
+}
+#rivers2 > h2 {
+  text-align: center;
+}
+#rivers2 > p {
+  line-height: 45px;
+}
+#rivers3 > h2 {
+  text-align: center;
+}
+#rivers3 > p {
+  line-height: 45px;
+}
