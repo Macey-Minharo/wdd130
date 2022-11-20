@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style.css" />
     <title>Home Page</title>
   </head>
   <body>
     <header>
-      <img src="#" alt="logo" />
+      <a href="./index.html">
+        <img
+          id="Logo"
+          src="./images/rsz_1maceys-photography-logo.png"
+          alt="logo"
+        />
+      </a>
       <nav>
         <a href="./index.html">Home</a>
         <a href="./page2.html">graduation and professional Photos</a>
@@ -16,13 +23,61 @@
         <a href="./contactus.html">Contact us</a>
       </nav>
     </header>
+    <main>
+      <h1>Welcome to Macey' Photography</h1>
+      <img src="./images/PXL_20221016_185509870.jpg" alt="About me img" />
+      <p>This is my about me pararagraph</p>
+      <img src="./images/Photo Prices!.jpg" alt="Photo Prices" />
+
+      <form action="#">
+        <h3>
+          Fill out the form to book your photo shoot! All payments will be made
+          at the time of the photo shoot :)
+        </h3>
+        <ul>
+          <li>
+            <label for="fullname">Full Name:</label>
+            <input type="text" name="fullname" id="fullname" />
+          </li>
+          <li>
+            <label for="date">What day do you want to take the photos?</label>
+            <input type="text" name="date" id="date" />
+          </li>
+          <li>
+            <label for="time">What time do you want to take the photos?</label>
+            <input type="text" name="time" id="time" />
+          </li>
+          <li>
+            <label for="location">Where do you want to take the photos?</label>
+            <input type="text" name="location" id="location" />
+          </li>
+          <li>
+            <label for="phototype"
+              >What type of photos do you want taken?</label
+            >
+            <input type="text" name="phototype" id="phototype" />
+          </li>
+          <li>
+            <label for="phonenumber">Best contact number:</label>
+            <input type="text" name="phonenumber" id="phonenumber" />
+          </li>
+          <button>Submit</button>
+        </ul>
+      </form>
+    </main>
     <footer>
       <h3></h3>
       <a href="./contactus.html">Contact us</a>
       <div>
-        <a href="#">Instagram</a>
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
+        <a href="https://www.instagram.com/">
+          <img src="./images/instagram.png" alt="Instagram logo" />
+        </a>
+        <a href="https://www.facebook.com/">
+          <img src="./images/facebook.png" alt="Facebook" />
+        </a>
+        <a href="https://twitter.com/i/flow/login">
+          <img src="./images/twitter.png" alt="Twitter" />
+        </a>
       </div>
     </footer>
   </body>
