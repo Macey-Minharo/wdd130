@@ -7,6 +7,7 @@ header {
   display: grid;
   grid-template-columns: 150px auto;
   align-items: center;
+  background-color: #808a9f;
 }
 nav {
   display: flex;
@@ -23,7 +24,9 @@ h1 {
   grid-row: 50px;
   font-family: Handlee;
 }
-
+h2 {
+  font-family: Handlee;
+}
 .img1 {
   grid-column: 1/3;
   grid-row: 1/3;
@@ -43,7 +46,10 @@ h1 {
 .prices {
   grid-column: 1/5;
   grid-row: 3/4;
-  width: 100%;
+  width: 90%;
+  margin-left: 5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 body {
@@ -54,6 +60,7 @@ body {
 form {
   margin: 0 auto;
   margin-top: 1em;
+  margin-bottom: 1em;
   width: 60%;
   padding: 1em;
   border: 5px solid black;
@@ -81,6 +88,7 @@ main img {
 footer {
   display: flex;
   padding: 20px;
+  background-color: #808a9f;
 }
 
 footer div {
@@ -89,4 +97,8 @@ footer div {
 
 footer div a {
   margin-left: calc(50% - 64px);
+}
+a {
+  color: aliceblue;
+  font-family: Handlee;
 }
