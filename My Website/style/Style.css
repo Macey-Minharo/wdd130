@@ -55,6 +55,7 @@ h2 {
 body {
   margin: 0;
   padding: 0;
+  background-color: #f5fbef;
 }
 
 form {
@@ -77,11 +78,8 @@ form ul {
   margin-left: 3px;
 }
 
-main img {
-  width: 100px;
-}
 .pricing-image {
-  width: 300px;
+  width: 300 px;
   display: block;
 }
 
