@@ -21,7 +21,6 @@ nav {
 
 h1 {
   text-align: center;
-  grid-row: 50px;
   font-family: Handlee;
 }
 h2 {
@@ -79,7 +78,7 @@ form ul {
 }
 
 .pricing-image {
-  width: 300 px;
+  width: 300px;
   display: block;
 }
 
